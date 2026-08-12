@@ -1,0 +1,1 @@
+Key patterns, outliers and assumptions made
