@@ -1,0 +1,25 @@
+restaurant_id,area,name,cuisine_type,avg_preparation_time_min
+R001,Downtown,Sunny Bistro,Chinese,10.6
+R002,Riverside,Coastal Diner,Fast Food,16.1
+R003,Uptown,Fresh Grill,Mexican,28.4
+R004,Eastgate,Little House,Chinese,24.8
+R005,Westfield,Rustic Eatery,Italian,10.7
+R006,Old Town,Native Cafe,Indian,15.8
+R007,Harbor View,Downtown Table,Italian,24.0
+R008,Sunset Hills,Golden Spot,Mediterranean,15.5
+R009,Downtown,Sunny Corner,Fast Food,30.2
+R010,Riverside,Coastal Kitchen,Italian,29.0
+R011,Uptown,Fresh Bistro,Mexican,27.5
+R012,Eastgate,Little Diner,Japanese,16.9
+R013,Westfield,Rustic Grill,Indian,33.9
+R014,Old Town,Native House,Japanese,12.6
+R015,Harbor View,Downtown Eatery,Mediterranean,12.4
+R016,Sunset Hills,Golden Cafe,Japanese,25.1
+R017,Downtown,Sunny Table,Italian,28.2
+R018,Riverside,Coastal Spot,Chinese,34.3
+R019,Uptown,Fresh Corner,Mediterranean,12.0
+R020,Eastgate,Little Kitchen,Fast Food,30.7
+R021,Westfield,Rustic Bistro,Japanese,24.4
+R022,Old Town,Native Diner,Chinese,11.1
+R023,Harbor View,Downtown Grill,Indian,29.3
+R024,Sunset Hills,Golden House,Chinese,31.4

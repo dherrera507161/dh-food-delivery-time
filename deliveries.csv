@@ -1,0 +1,621 @@
+delivery_id,delivery_person_id,restaurant_area,customer_area,delivery_distance_km,delivery_time_min,order_placed_at,weather_condition,traffic_condition,delivery_rating
+D00001,5,Riverside,Riverside,4.71,19,2026-06-05 19:01:00,Clear,Low,4.9
+D00002,34,Downtown,Westfield,2.09,22,2026-07-16 19:44:00,Clear,Medium,5.0
+D00003,17,Downtown,Downtown,5.54,31,2026-07-29 21:20:00,Clear,Low,3.5
+D00004,28,Riverside,Riverside,2.47,21,2026-07-23 01:03:00,Clear,Medium,4.2
+D00005,23,Harbor View,Riverside,10.6,37,2026-05-13 06:04:00,Fog,Medium,4.0
+D00006,2,Old Town,Old Town,9.03,24,2026-04-28 02:05:00,Clear,Low,3.8
+D00007,13,Harbor View,Harbor View,8.19,30,2026-06-14 16:59:00,Clear,Low,4.6
+D00008,35,Uptown,Riverside,11.58,32,2026-06-06 18:23:00,Clear,Low,4.6
+D00009,37,Harbor View,Harbor View,11.17,47,2026-04-22 23:27:00,Rain,Medium,3.3
+D00010,22,Eastgate,Eastgate,4.16,29,2026-07-11 00:03:00,Clear,Medium,4.5
+D00011,25,Old Town,Uptown,6.94,18,2026-03-19 14:35:00,Clear,Low,4.7
+D00012,29,Old Town,Old Town,8.18,29,2026-04-12 00:50:00,Clear,Medium,4.1
+D00013,20,Sunset Hills,Uptown,11.82,56,2026-08-05 22:45:00,Rain,High,4.3
+D00014,26,Sunset Hills,Sunset Hills,5.56,29,2026-08-10 20:11:00,Clear,High,4.2
+D00015,9,Harbor View,Old Town,8.86,53,2026-04-20 04:08:00,Rain,High,3.7
+D00016,17,Sunset Hills,Westfield,3.48,26,2026-03-31 08:20:00,Clear,Medium,4.7
+D00017,10,Sunset Hills,Sunset Hills,1.52,23,2026-07-03 01:47:00,Clear,Medium,4.5
+D00018,37,Westfield,Westfield,5.17,38,2026-05-13 14:12:00,Storm,High,4.0
+D00019,15,Downtown,Downtown,8.29,49,2026-08-04 11:39:00,Cloudy,Medium,3.1
+D00020,38,Uptown,Riverside,5.97,37,2026-04-24 19:05:00,Clear,Medium,4.6
+D00021,27,Downtown,Sunset Hills,1.38,26,2026-08-07 00:26:00,Fog,Low,4.8
+D00022,13,Downtown,Eastgate,2.08,20,2026-07-10 08:18:00,Fog,Medium,4.8
+D00023,11,Riverside,Riverside,8.39,39,2026-08-05 14:24:00,Fog,Medium,4.0
+D00024,20,Old Town,Riverside,6.77,30,2026-03-20 22:38:00,Cloudy,Low,4.2
+D00025,28,Eastgate,Sunset Hills,9.02,40,2026-07-03 10:49:00,Fog,Low,3.6
+D00026,38,Downtown,Downtown,10.67,48,2026-06-10 21:43:00,Clear,Medium,3.8
+D00027,32,Harbor View,Harbor View,10.66,40,2026-06-06 13:43:00,Cloudy,Low,4.2
+D00028,36,Sunset Hills,Sunset Hills,4.1,21,2026-04-19 23:55:00,Clear,Low,3.9
+D00029,36,Uptown,Uptown,3.62,24,2026-04-17 15:41:00,Clear,Low,4.7
+D00030,14,Sunset Hills,Sunset Hills,3.97,19,2026-03-14 07:22:00,Clear,Low,4.7
+D00031,3,Riverside,Riverside,9.23,30,2026-07-10 03:05:00,Clear,Low,4.8
+D00032,31,Eastgate,Harbor View,7.85,34,2026-04-08 21:24:00,Clear,Low,4.0
+D00033,27,Eastgate,Eastgate,5.85,39,2026-06-15 07:36:00,Clear,High,4.1
+D00034,14,Westfield,Westfield,2.75,13,2026-07-22 18:45:00,Clear,Low,4.6
+D00035,19,Harbor View,Riverside,9.66,37,2026-06-13 15:10:00,Rain,High,4.4
+D00036,10,Uptown,Uptown,10.03,51,2026-05-25 04:13:00,Fog,Medium,4.1
+D00037,35,Sunset Hills,Sunset Hills,4.41,27,2026-08-01 10:13:00,Clear,Low,4.1
+D00038,18,Uptown,Uptown,8.1,34,2026-06-28 08:27:00,Fog,Low,3.8
+D00039,23,Old Town,Old Town,5.41,19,2026-07-16 18:39:00,Clear,Medium,4.9
+D00040,17,Uptown,Uptown,11.87,45,2026-04-30 07:08:00,Cloudy,Medium,4.3
+D00041,29,Riverside,Riverside,4.03,34,2026-03-24 19:01:00,Storm,Medium,4.3
+D00042,36,Downtown,Downtown,11.02,41,2026-07-19 16:07:00,Clear,Low,3.6
+D00043,31,Sunset Hills,Sunset Hills,2.93,35,2026-03-23 19:36:00,Rain,Medium,4.3
+D00044,33,Downtown,Westfield,11.99,39,2026-05-27 05:23:00,Clear,Low,4.0
+D00045,21,Harbor View,Eastgate,10.39,29,2026-03-18 11:46:00,Clear,Low,4.4
+D00046,3,Westfield,Westfield,10.26,43,2026-05-19 20:05:00,Clear,High,4.1
+D00047,31,Downtown,Downtown,10.34,63,2026-05-02 03:55:00,Storm,High,4.2
+D00048,3,Eastgate,Eastgate,1.81,26,2026-05-30 16:13:00,Fog,High,4.1
+D00049,3,Uptown,Westfield,2.43,26,2026-05-12 12:33:00,Rain,Medium,4.0
+D00050,16,Sunset Hills,Uptown,3.64,26,2026-06-13 09:20:00,Clear,Low,3.3
+D00051,29,Eastgate,Westfield,5.92,31,2026-04-25 01:44:00,Clear,High,4.1
+D00052,19,Harbor View,Harbor View,7.14,29,2026-05-02 16:00:00,Cloudy,Medium,4.5
+D00053,15,Eastgate,Eastgate,8.39,48,2026-06-24 04:44:00,Cloudy,Medium,3.5
+D00054,29,Riverside,Riverside,4.11,22,2026-07-09 21:02:00,Cloudy,Low,4.8
+D00055,17,Sunset Hills,Westfield,11.58,54,2026-05-17 20:31:00,Clear,High,3.4
+D00056,26,Downtown,Downtown,8.34,35,2026-07-11 09:37:00,Cloudy,Medium,3.1
+D00057,2,Eastgate,Old Town,7.92,25,2026-06-16 03:56:00,Clear,Medium,4.1
+D00058,32,Eastgate,Eastgate,5.88,29,2026-03-27 19:36:00,Cloudy,Medium,4.1
+D00059,7,Sunset Hills,Westfield,3.23,14,2026-08-03 01:37:00,Clear,Low,5.0
+D00060,26,Downtown,Downtown,8.22,40,2026-07-11 09:55:00,Rain,Medium,4.3
+D00061,14,Uptown,Eastgate,10.54,32,2026-03-14 17:08:00,Clear,Low,4.2
+D00062,35,Downtown,Riverside,4.81,29,2026-08-05 20:00:00,Cloudy,Medium,4.3
+D00063,8,Sunset Hills,Sunset Hills,7.45,24,2026-04-19 12:28:00,Clear,Low,3.8
+D00064,2,Riverside,Harbor View,6.29,26,2026-04-24 02:54:00,Fog,Low,4.6
+D00065,38,Riverside,Harbor View,6.46,48,2026-03-29 14:31:00,Clear,High,4.6
+D00066,29,Sunset Hills,Sunset Hills,8.97,28,2026-04-17 11:34:00,Clear,Low,5.0
+D00067,6,Uptown,Uptown,4.97,31,2026-07-18 00:13:00,Clear,Low,4.1
+D00068,28,Sunset Hills,Sunset Hills,4.74,30,2026-05-30 04:41:00,Rain,Low,4.0
+D00069,18,Uptown,Uptown,9.97,57,2026-04-24 06:11:00,Rain,Medium,4.2
+D00070,12,Downtown,Westfield,2.83,30,2026-05-17 13:00:00,Clear,Medium,4.6
+D00071,34,Harbor View,Harbor View,4.94,35,2026-04-17 13:50:00,Cloudy,High,4.1
+D00072,40,Riverside,Westfield,6.24,29,2026-04-20 02:33:00,Clear,Low,4.0
+D00073,38,Sunset Hills,Sunset Hills,5.23,35,2026-05-25 22:46:00,Rain,Low,4.5
+D00074,21,Eastgate,Eastgate,5.06,32,2026-04-23 18:52:00,Cloudy,Medium,3.4
+D00075,2,Harbor View,Old Town,5.33,16,2026-03-17 10:24:00,Rain,Low,5.0
+D00076,24,Uptown,Uptown,7.4,47,2026-07-15 16:33:00,Rain,Medium,4.5
+D00077,33,Westfield,Westfield,9.49,44,2026-04-03 17:03:00,Clear,High,3.9
+D00078,12,Eastgate,Eastgate,7.83,34,2026-07-23 18:11:00,Clear,Medium,3.8
+D00079,21,Westfield,Westfield,4.19,19,2026-04-13 09:20:00,Clear,Low,4.3
+D00080,19,Uptown,Riverside,7.3,34,2026-04-04 11:31:00,Fog,Medium,4.5
+D00081,39,Sunset Hills,Sunset Hills,9.88,41,2026-07-27 09:54:00,Cloudy,High,4.5
+D00082,34,Downtown,Old Town,5.38,31,2026-05-08 14:36:00,Clear,Medium,3.5
+D00083,25,Riverside,Riverside,7.33,27,2026-07-04 13:55:00,Clear,Low,4.1
+D00084,36,Westfield,Old Town,10.08,38,2026-07-10 02:16:00,Cloudy,Medium,4.1
+D00085,24,Riverside,Riverside,6.25,38,2026-06-18 13:11:00,Clear,Low,4.6
+D00086,22,Eastgate,Eastgate,2.83,32,2026-05-07 19:50:00,Cloudy,Medium,3.8
+D00087,16,Harbor View,Sunset Hills,4.27,32,2026-06-13 06:45:00,Cloudy,Medium,3.8
+D00088,19,Westfield,Westfield,3.04,29,2026-04-26 18:08:00,Rain,High,4.4
+D00089,34,Eastgate,Eastgate,10.94,46,2026-07-01 15:32:00,Clear,Medium,4.0
+D00090,27,Riverside,Riverside,11.94,46,2026-05-08 16:36:00,Clear,Low,3.7
+D00091,3,Riverside,Sunset Hills,5.82,24,2026-07-07 01:30:00,Clear,Low,5.0
+D00092,19,Sunset Hills,Sunset Hills,7.96,29,2026-07-30 16:34:00,Rain,Low,3.8
+D00093,10,Riverside,Riverside,5.47,34,2026-05-13 16:24:00,Cloudy,Low,4.2
+D00094,31,Riverside,Old Town,4.8,27,2026-06-08 00:59:00,Clear,Low,4.1
+D00095,3,Eastgate,Eastgate,11.79,40,2026-06-28 02:31:00,Clear,Low,4.7
+D00096,13,Riverside,Downtown,5.26,28,2026-05-23 14:28:00,Cloudy,Medium,4.4
+D00097,22,Downtown,Downtown,5.28,39,2026-05-09 10:04:00,Clear,High,4.4
+D00098,18,Uptown,Riverside,2.82,20,2026-04-23 04:08:00,Clear,Low,4.7
+D00099,29,Eastgate,Eastgate,3.88,32,2026-05-13 04:33:00,Fog,High,4.6
+D00100,10,Eastgate,Sunset Hills,3.44,38,2026-08-03 19:56:00,Rain,Medium,4.1
+D00101,24,Harbor View,Uptown,4.32,41,2026-03-29 12:35:00,Clear,High,4.2
+D00102,17,Harbor View,Harbor View,11.98,45,2026-05-30 01:02:00,Clear,Low,4.2
+D00103,21,Old Town,Old Town,4.05,20,2026-07-26 06:26:00,Clear,Low,3.6
+D00104,15,Eastgate,Uptown,4.84,42,2026-06-12 08:59:00,Rain,Medium,4.1
+D00105,26,Harbor View,Harbor View,2.2,11,2026-04-29 05:56:00,Clear,Low,4.6
+D00106,9,Old Town,Old Town,2.51,26,2026-07-28 20:27:00,Clear,Low,3.8
+D00107,17,Harbor View,Westfield,7.68,35,2026-07-10 03:41:00,Clear,Medium,3.8
+D00108,3,Downtown,Downtown,3.16,33,2026-03-17 15:19:00,Rain,Medium,4.4
+D00109,16,Old Town,Old Town,1.47,23,2026-04-17 21:16:00,Clear,Medium,5.0
+D00110,23,Westfield,Westfield,1.99,12,2026-05-09 07:25:00,Clear,Low,4.5
+D00111,27,Sunset Hills,Uptown,4.3,25,2026-05-20 05:14:00,Cloudy,Medium,4.2
+D00112,26,Downtown,Downtown,4.75,27,2026-06-11 17:23:00,Clear,Medium,3.8
+D00113,28,Westfield,Old Town,5.29,31,2026-04-30 12:58:00,Rain,Low,4.2
+D00114,40,Eastgate,Eastgate,9.7,48,2026-07-18 11:37:00,Clear,High,3.7
+D00115,3,Westfield,Sunset Hills,7.59,31,2026-04-01 09:51:00,Rain,Low,4.0
+D00116,22,Downtown,Sunset Hills,9.94,50,2026-03-20 14:30:00,Clear,Medium,4.0
+D00117,31,Downtown,Eastgate,2.71,34,2026-07-29 05:30:00,Rain,Medium,4.0
+D00118,8,Harbor View,Harbor View,5.43,25,2026-05-23 10:51:00,Clear,Medium,3.9
+D00119,9,Downtown,Downtown,6.69,39,2026-05-20 02:30:00,Clear,Low,3.9
+D00120,31,Harbor View,Westfield,11.34,59,2026-03-22 14:46:00,Fog,High,3.2
+D00121,36,Sunset Hills,Sunset Hills,6.88,40,2026-07-11 05:17:00,Storm,Medium,4.9
+D00122,6,Eastgate,Westfield,10.07,45,2026-04-11 17:48:00,Clear,Medium,4.3
+D00123,4,Old Town,Eastgate,5.43,32,2026-06-13 22:54:00,Cloudy,Low,4.2
+D00124,31,Sunset Hills,Westfield,1.46,26,2026-05-21 14:19:00,Cloudy,Medium,5.0
+D00125,27,Old Town,Downtown,11.29,53,2026-05-02 08:49:00,Fog,High,4.0
+D00126,19,Harbor View,Sunset Hills,3.86,16,2026-07-08 07:31:00,Cloudy,Low,3.7
+D00127,22,Riverside,Riverside,10.39,63,2026-06-23 18:21:00,Storm,High,3.9
+D00128,31,Uptown,Downtown,5.8,27,2026-06-06 11:45:00,Clear,Low,4.0
+D00129,16,Riverside,Sunset Hills,8.48,48,2026-05-25 18:35:00,Fog,High,3.3
+D00130,40,Sunset Hills,Sunset Hills,5.9,35,2026-07-08 08:51:00,Fog,Medium,3.1
+D00131,16,Old Town,Riverside,8.68,41,2026-03-30 09:27:00,Clear,Medium,4.4
+D00132,21,Downtown,Downtown,6.27,41,2026-06-20 01:23:00,Storm,Medium,4.2
+D00133,30,Old Town,Downtown,0.83,9,2026-05-02 15:08:00,Clear,Low,4.8
+D00134,31,Riverside,Riverside,7.99,45,2026-06-26 19:11:00,Cloudy,High,4.8
+D00135,6,Old Town,Uptown,11.92,51,2026-05-14 20:49:00,Clear,Low,3.9
+D00136,35,Old Town,Old Town,4.68,30,2026-06-14 16:31:00,Clear,High,4.0
+D00137,2,Sunset Hills,Sunset Hills,5.8,27,2026-07-17 04:58:00,Cloudy,High,4.4
+D00138,4,Westfield,Westfield,11.06,59,2026-05-29 16:08:00,Rain,Medium,3.0
+D00139,34,Sunset Hills,Sunset Hills,11.42,58,2026-06-02 22:25:00,Storm,High,3.6
+D00140,25,Downtown,Downtown,4.16,20,2026-04-27 10:51:00,Clear,Medium,4.7
+D00141,4,Riverside,Riverside,2.3,18,2026-04-27 06:27:00,Clear,Low,3.5
+D00142,13,Riverside,Riverside,9.81,36,2026-08-01 21:48:00,Rain,Medium,4.5
+D00143,14,Harbor View,Riverside,7.57,29,2026-04-11 16:16:00,Clear,High,4.0
+D00144,17,Eastgate,Eastgate,9.79,46,2026-04-06 09:54:00,Cloudy,High,4.4
+D00145,15,Sunset Hills,Sunset Hills,7.34,38,2026-06-06 06:01:00,Cloudy,Low,4.5
+D00146,36,Westfield,Old Town,7.99,32,2026-06-07 08:14:00,Clear,Low,3.9
+D00147,35,Westfield,Downtown,9.36,41,2026-07-23 02:57:00,Clear,High,4.9
+D00148,4,Eastgate,Sunset Hills,6.76,34,2026-04-10 00:00:00,Clear,Low,3.6
+D00149,7,Eastgate,Eastgate,6.7,25,2026-06-11 17:21:00,Cloudy,Low,4.6
+D00150,15,Riverside,Riverside,5.05,38,2026-08-03 21:35:00,Rain,Low,4.2
+D00151,22,Uptown,Riverside,3.17,44,2026-03-29 22:46:00,Storm,High,4.1
+D00152,37,Old Town,Old Town,7.37,33,2026-05-23 23:47:00,Cloudy,Medium,4.3
+D00153,25,Old Town,Old Town,9.65,27,2026-05-05 00:52:00,Cloudy,Low,3.8
+D00154,22,Eastgate,Harbor View,3.86,29,2026-05-20 23:20:00,Fog,Medium,5.0
+D00155,40,Riverside,Riverside,5.06,25,2026-07-21 15:51:00,Cloudy,Low,4.6
+D00156,24,Downtown,Downtown,5.83,46,2026-07-20 18:33:00,Rain,Medium,4.2
+D00157,1,Riverside,Riverside,7.07,25,2026-07-21 00:03:00,Fog,Low,4.2
+D00158,18,Sunset Hills,Sunset Hills,5.52,28,2026-06-30 10:43:00,Clear,Low,4.6
+D00159,7,Westfield,Westfield,7.75,27,2026-05-02 13:07:00,Cloudy,Low,5.0
+D00160,21,Eastgate,Eastgate,11.6,40,2026-04-11 13:49:00,Fog,Low,3.6
+D00161,25,Downtown,Harbor View,7.12,28,2026-05-10 20:01:00,Rain,Medium,3.7
+D00162,14,Harbor View,Riverside,2.36,17,2026-04-29 02:29:00,Clear,Low,4.8
+D00163,31,Uptown,Uptown,6.89,43,2026-04-04 01:34:00,Cloudy,Medium,3.7
+D00164,16,Old Town,Uptown,8.39,49,2026-07-31 05:19:00,Clear,High,3.9
+D00165,33,Sunset Hills,Sunset Hills,3.28,23,2026-03-16 01:24:00,Clear,Medium,3.6
+D00166,7,Riverside,Riverside,11.34,35,2026-07-21 20:07:00,Clear,Low,4.3
+D00167,29,Sunset Hills,Old Town,9.87,35,2026-07-25 14:58:00,Clear,High,3.6
+D00168,12,Riverside,Riverside,3.4,20,2026-03-21 10:31:00,Clear,Low,3.9
+D00169,38,Old Town,Old Town,9.23,47,2026-06-18 17:43:00,Cloudy,Low,4.7
+D00170,30,Eastgate,Eastgate,4.31,24,2026-04-08 07:20:00,Clear,Medium,4.6
+D00171,20,Eastgate,Eastgate,3.47,32,2026-07-08 13:53:00,Clear,Medium,4.6
+D00172,12,Sunset Hills,Uptown,4.03,30,2026-03-22 18:29:00,Clear,High,3.6
+D00173,13,Westfield,Sunset Hills,5.46,25,2026-04-29 02:29:00,Cloudy,Medium,4.4
+D00174,18,Sunset Hills,Sunset Hills,9.12,44,2026-06-29 09:24:00,Cloudy,Medium,4.3
+D00175,3,Sunset Hills,Sunset Hills,9.04,32,2026-06-17 10:54:00,Cloudy,Low,4.1
+D00176,8,Sunset Hills,Sunset Hills,10.44,39,2026-03-14 01:38:00,Rain,Medium,3.6
+D00177,23,Riverside,Riverside,11.76,38,2026-03-27 18:40:00,Clear,Medium,4.0
+D00178,27,Riverside,Uptown,8.77,43,2026-07-09 16:51:00,Cloudy,High,3.6
+D00179,27,Westfield,Westfield,9.2,42,2026-07-19 11:28:00,Cloudy,High,4.3
+D00180,30,Westfield,Old Town,3.24,19,2026-07-26 06:35:00,Clear,Low,5.0
+D00181,32,Uptown,Downtown,9.58,31,2026-07-31 20:20:00,Clear,Low,3.8
+D00182,9,Westfield,Westfield,4.84,36,2026-06-02 21:19:00,Clear,Medium,4.1
+D00183,6,Harbor View,Harbor View,2.29,29,2026-06-18 08:56:00,Clear,Medium,4.3
+D00184,9,Sunset Hills,Sunset Hills,9.83,49,2026-05-05 21:14:00,Clear,Medium,4.5
+D00185,10,Uptown,Uptown,2.64,23,2026-08-09 04:19:00,Clear,Low,3.2
+D00186,6,Eastgate,Eastgate,5.1,33,2026-07-11 05:14:00,Fog,Low,4.5
+D00187,2,Old Town,Eastgate,2.91,19,2026-04-01 04:28:00,Clear,Medium,3.5
+D00188,16,Sunset Hills,Riverside,11.26,47,2026-03-29 23:37:00,Clear,High,3.9
+D00189,5,Downtown,Downtown,1.25,17,2026-08-08 15:47:00,Clear,High,4.4
+D00190,26,Uptown,Uptown,1.69,26,2026-06-01 21:41:00,Fog,High,4.7
+D00191,28,Sunset Hills,Eastgate,11.16,50,2026-07-28 16:55:00,Clear,Medium,4.3
+D00192,1,Harbor View,Harbor View,11.47,49,2026-08-09 18:29:00,Rain,High,3.8
+D00193,8,Downtown,Downtown,1.52,23,2026-04-24 15:27:00,Cloudy,Medium,4.6
+D00194,11,Eastgate,Eastgate,8.9,43,2026-07-16 05:17:00,Clear,Medium,4.4
+D00195,25,Westfield,Westfield,11.04,31,2026-08-02 06:09:00,Cloudy,Medium,4.7
+D00196,37,Eastgate,Eastgate,9.81,50,2026-07-29 18:46:00,Fog,High,4.3
+D00197,6,Riverside,Riverside,7.11,33,2026-05-09 17:42:00,Clear,Medium,4.4
+D00198,35,Sunset Hills,Sunset Hills,6.87,38,2026-04-29 23:46:00,Rain,Medium,4.2
+D00199,20,Eastgate,Eastgate,11.57,47,2026-06-12 10:29:00,Fog,Low,4.2
+D00200,24,Harbor View,Riverside,2.3,20,2026-03-16 20:28:00,Cloudy,Low,4.1
+D00201,17,Uptown,Harbor View,3.85,25,2026-05-20 13:32:00,Clear,Low,3.6
+D00202,30,Uptown,Uptown,3.13,17,2026-03-27 12:11:00,Clear,Low,4.6
+D00203,21,Westfield,Westfield,6.55,29,2026-06-09 12:35:00,Cloudy,Low,4.3
+D00204,36,Sunset Hills,Sunset Hills,0.93,30,2026-07-16 19:53:00,Cloudy,High,4.9
+D00205,38,Downtown,Riverside,10.91,50,2026-08-06 21:48:00,Clear,Low,3.5
+D00206,4,Old Town,Harbor View,5.09,37,2026-05-02 08:59:00,Clear,Medium,4.0
+D00207,40,Eastgate,Westfield,6.97,33,2026-04-06 10:04:00,Clear,Low,4.5
+D00208,35,Downtown,Old Town,6.23,31,2026-04-11 06:10:00,Fog,Medium,4.4
+D00209,18,Riverside,Sunset Hills,7.34,33,2026-03-29 12:11:00,Clear,Low,4.6
+D00210,15,Uptown,Harbor View,3.45,28,2026-05-13 18:49:00,Clear,Medium,4.8
+D00211,37,Westfield,Westfield,4.26,22,2026-06-24 08:26:00,Clear,Low,4.7
+D00212,40,Harbor View,Old Town,1.05,33,2026-06-27 13:57:00,Rain,High,3.3
+D00213,26,Uptown,Uptown,11.73,35,2026-05-26 13:52:00,Cloudy,Medium,3.8
+D00214,38,Old Town,Old Town,8.96,48,2026-05-28 19:49:00,Fog,High,5.0
+D00215,39,Uptown,Eastgate,6.36,21,2026-03-20 20:01:00,Clear,Low,4.7
+D00216,22,Harbor View,Harbor View,1.56,22,2026-06-19 16:16:00,Clear,Low,4.3
+D00217,32,Westfield,Westfield,6.17,33,2026-05-07 20:07:00,Storm,Medium,3.9
+D00218,2,Uptown,Uptown,2.71,11,2026-07-16 21:39:00,Clear,Medium,4.1
+D00219,2,Old Town,Uptown,1.93,11,2026-04-22 18:57:00,Clear,Low,3.7
+D00220,19,Riverside,Riverside,6.96,23,2026-07-30 11:24:00,Clear,Low,4.3
+D00221,7,Downtown,Downtown,10.25,34,2026-05-29 21:30:00,Clear,Medium,4.3
+D00222,24,Westfield,Westfield,5.73,41,2026-04-19 22:44:00,Clear,High,4.0
+D00223,23,Riverside,Riverside,1.48,21,2026-03-14 16:25:00,Clear,Medium,4.2
+D00224,20,Uptown,Uptown,10.89,49,2026-08-03 07:24:00,Cloudy,Medium,3.9
+D00225,14,Harbor View,Harbor View,5.68,30,2026-04-25 21:17:00,Fog,Medium,3.9
+D00226,25,Riverside,Riverside,5.93,32,2026-05-20 15:27:00,Storm,High,3.8
+D00227,10,Uptown,Uptown,9.53,60,2026-07-17 20:24:00,Cloudy,High,3.2
+D00228,39,Sunset Hills,Sunset Hills,7.72,24,2026-06-02 11:51:00,Cloudy,Medium,4.9
+D00229,31,Downtown,Downtown,3.94,36,2026-05-17 14:41:00,Clear,Medium,4.8
+D00230,21,Downtown,Riverside,11.03,38,2026-06-24 09:47:00,Clear,Medium,4.1
+D00231,20,Harbor View,Harbor View,7.17,45,2026-07-08 07:04:00,Clear,High,4.3
+D00232,13,Downtown,Downtown,7.92,22,2026-04-15 07:35:00,Clear,Low,4.8
+D00233,36,Eastgate,Eastgate,8.52,39,2026-06-06 00:07:00,Clear,Medium,4.7
+D00234,15,Old Town,Old Town,10.48,52,2026-04-29 07:59:00,Fog,Medium,4.1
+D00235,17,Eastgate,Westfield,5.02,23,2026-06-02 10:03:00,Clear,Low,4.5
+D00236,7,Downtown,Downtown,7.45,30,2026-05-08 06:19:00,Clear,Medium,4.3
+D00237,17,Westfield,Westfield,9.37,58,2026-06-24 19:27:00,Storm,High,3.3
+D00238,2,Westfield,Westfield,5.49,18,2026-05-28 15:02:00,Clear,Low,3.7
+D00239,35,Westfield,Old Town,2.7,22,2026-04-04 14:06:00,Cloudy,Medium,4.9
+D00240,22,Westfield,Westfield,10.56,51,2026-05-13 16:13:00,Clear,High,4.5
+D00241,4,Westfield,Westfield,2.98,26,2026-07-24 08:04:00,Clear,Medium,4.2
+D00242,13,Uptown,Uptown,4.34,22,2026-03-19 09:51:00,Cloudy,High,4.4
+D00243,29,Downtown,Downtown,2.57,27,2026-06-29 05:12:00,Cloudy,High,4.7
+D00244,25,Downtown,Downtown,11.44,43,2026-06-21 00:37:00,Storm,High,4.1
+D00245,23,Riverside,Riverside,4.23,21,2026-05-05 07:23:00,Clear,Low,4.2
+D00246,9,Uptown,Sunset Hills,11.42,59,2026-05-12 17:50:00,Fog,Medium,4.8
+D00247,33,Old Town,Old Town,7.97,36,2026-08-02 11:04:00,Cloudy,Medium,4.1
+D00248,8,Old Town,Old Town,6.11,27,2026-07-11 06:44:00,Clear,Medium,4.0
+D00249,39,Harbor View,Harbor View,7.72,29,2026-07-16 07:14:00,Clear,High,4.3
+D00250,27,Riverside,Riverside,3.13,28,2026-03-24 08:02:00,Fog,Low,4.3
+D00251,6,Downtown,Downtown,3.39,25,2026-07-17 15:19:00,Fog,Low,4.4
+D00252,24,Old Town,Old Town,9.29,52,2026-07-13 20:06:00,Clear,High,3.8
+D00253,18,Sunset Hills,Sunset Hills,5.29,27,2026-05-16 18:53:00,Fog,Low,4.9
+D00254,9,Harbor View,Uptown,7.42,48,2026-07-16 10:02:00,Cloudy,Medium,4.5
+D00255,9,Sunset Hills,Riverside,1.51,25,2026-04-28 09:58:00,Cloudy,Low,3.9
+D00256,22,Downtown,Downtown,8.94,42,2026-07-18 10:18:00,Clear,Medium,3.9
+D00257,11,Downtown,Sunset Hills,6.31,39,2026-06-30 21:12:00,Clear,High,4.3
+D00258,6,Harbor View,Harbor View,10.39,37,2026-03-18 09:55:00,Clear,Low,4.2
+D00259,36,Riverside,Riverside,7.94,44,2026-07-19 04:21:00,Storm,Medium,3.7
+D00260,30,Uptown,Uptown,4.87,19,2026-04-12 01:18:00,Clear,Low,4.3
+D00261,34,Eastgate,Downtown,10.0,42,2026-06-30 08:52:00,Cloudy,Medium,4.5
+D00262,30,Harbor View,Riverside,7.89,29,2026-04-27 22:01:00,Cloudy,Low,3.9
+D00263,1,Downtown,Harbor View,6.49,24,2026-03-15 08:01:00,Fog,Low,3.9
+D00264,39,Eastgate,Harbor View,8.56,29,2026-04-26 04:02:00,Clear,Medium,4.6
+D00265,39,Harbor View,Westfield,9.05,33,2026-03-24 13:15:00,Rain,Low,5.0
+D00266,12,Downtown,Downtown,9.32,52,2026-05-21 01:53:00,Rain,Medium,3.8
+D00267,1,Downtown,Downtown,8.31,39,2026-05-06 19:57:00,Clear,High,4.5
+D00268,19,Harbor View,Downtown,7.7,27,2026-05-12 09:54:00,Cloudy,Medium,5.0
+D00269,4,Westfield,Westfield,0.95,25,2026-05-23 06:57:00,Clear,Medium,3.3
+D00270,38,Riverside,Eastgate,2.79,26,2026-06-23 14:32:00,Cloudy,Low,4.8
+D00271,36,Downtown,Downtown,4.5,26,2026-03-15 16:00:00,Cloudy,Low,4.7
+D00272,37,Riverside,Riverside,11.52,55,2026-05-22 07:46:00,Rain,High,4.5
+D00273,14,Old Town,Old Town,11.44,38,2026-05-11 14:47:00,Rain,Medium,3.9
+D00274,23,Harbor View,Harbor View,10.72,39,2026-06-10 22:17:00,Clear,High,4.4
+D00275,24,Downtown,Sunset Hills,10.86,53,2026-04-09 22:42:00,Clear,Medium,3.9
+D00276,5,Harbor View,Eastgate,6.82,34,2026-04-25 20:47:00,Cloudy,High,3.5
+D00277,30,Harbor View,Harbor View,2.79,22,2026-07-20 21:57:00,Clear,Low,3.3
+D00278,26,Old Town,Old Town,6.79,32,2026-05-04 02:53:00,Rain,Medium,3.6
+D00279,33,Eastgate,Eastgate,3.95,30,2026-05-26 04:55:00,Fog,Medium,4.1
+D00280,26,Riverside,Riverside,10.73,38,2026-07-06 14:17:00,Fog,High,3.2
+D00281,3,Downtown,Downtown,11.41,42,2026-05-03 06:25:00,Clear,Medium,3.9
+D00282,12,Sunset Hills,Westfield,8.31,40,2026-06-23 20:49:00,Rain,Low,2.6
+D00283,5,Downtown,Downtown,4.8,21,2026-03-16 08:39:00,Cloudy,Low,4.5
+D00284,22,Eastgate,Uptown,9.85,43,2026-03-20 05:37:00,Fog,Low,4.9
+D00285,24,Westfield,Old Town,4.82,36,2026-04-11 09:32:00,Clear,Medium,4.8
+D00286,13,Downtown,Riverside,6.48,22,2026-07-23 23:06:00,Clear,Medium,4.7
+D00287,35,Sunset Hills,Uptown,10.78,51,2026-05-10 11:46:00,Rain,High,4.5
+D00288,1,Old Town,Old Town,5.8,29,2026-06-30 07:52:00,Clear,High,3.2
+D00289,3,Sunset Hills,Eastgate,3.42,24,2026-07-26 15:37:00,Cloudy,Medium,3.8
+D00290,21,Eastgate,Westfield,7.19,27,2026-06-05 05:26:00,Clear,Medium,3.7
+D00291,15,Downtown,Downtown,6.2,46,2026-05-15 08:10:00,Rain,Medium,4.3
+D00292,10,Old Town,Old Town,5.44,30,2026-07-12 02:46:00,Clear,Low,3.7
+D00293,16,Riverside,Riverside,6.54,44,2026-07-01 19:20:00,Storm,Low,5.0
+D00294,37,Westfield,Westfield,5.83,41,2026-05-31 21:47:00,Fog,High,5.0
+D00295,33,Downtown,Downtown,7.41,36,2026-05-16 09:22:00,Clear,Medium,4.4
+D00296,39,Eastgate,Eastgate,9.23,34,2026-08-02 06:28:00,Clear,Medium,3.9
+D00297,27,Eastgate,Harbor View,9.41,50,2026-06-14 08:10:00,Clear,High,3.5
+D00298,17,Sunset Hills,Riverside,6.89,31,2026-05-31 04:04:00,Clear,Low,4.2
+D00299,14,Harbor View,Harbor View,5.57,23,2026-05-11 20:51:00,Rain,Low,4.2
+D00300,14,Old Town,Old Town,4.95,25,2026-03-22 08:49:00,Rain,Low,4.7
+D00301,8,Sunset Hills,Sunset Hills,6.49,32,2026-07-01 20:47:00,Cloudy,High,3.7
+D00302,1,Uptown,Sunset Hills,3.75,22,2026-04-22 21:56:00,Clear,Medium,3.2
+D00303,39,Riverside,Uptown,3.06,25,2026-04-07 10:00:00,Cloudy,High,4.4
+D00304,11,Old Town,Old Town,11.73,36,2026-06-11 04:00:00,Clear,Low,4.6
+D00305,1,Sunset Hills,Riverside,10.09,38,2026-03-24 14:14:00,Fog,Low,4.1
+D00306,26,Uptown,Uptown,1.99,21,2026-06-28 10:28:00,Clear,Low,4.0
+D00307,29,Westfield,Westfield,5.94,27,2026-06-10 13:11:00,Clear,Medium,4.3
+D00308,15,Uptown,Uptown,0.91,23,2026-05-13 07:26:00,Cloudy,Low,4.7
+D00309,12,Sunset Hills,Sunset Hills,2.85,34,2026-06-17 05:43:00,Cloudy,High,5.0
+D00310,14,Sunset Hills,Sunset Hills,2.55,22,2026-06-09 04:38:00,Clear,High,3.7
+D00311,24,Eastgate,Eastgate,2.85,26,2026-03-17 15:29:00,Cloudy,Medium,4.8
+D00312,35,Riverside,Riverside,2.76,20,2026-05-03 02:11:00,Fog,Medium,4.5
+D00313,38,Eastgate,Eastgate,3.74,36,2026-06-06 18:25:00,Clear,High,4.5
+D00314,24,Eastgate,Westfield,2.27,30,2026-04-18 18:24:00,Rain,Low,4.5
+D00315,13,Westfield,Uptown,5.52,25,2026-04-12 23:49:00,Clear,High,3.8
+D00316,17,Riverside,Downtown,2.63,21,2026-05-02 20:16:00,Clear,Low,4.1
+D00317,24,Riverside,Riverside,5.41,33,2026-06-07 12:59:00,Clear,Medium,3.8
+D00318,19,Eastgate,Eastgate,9.05,34,2026-04-03 08:11:00,Storm,Medium,4.9
+D00319,22,Old Town,Harbor View,4.65,31,2026-07-24 21:50:00,Clear,Medium,3.6
+D00320,24,Sunset Hills,Sunset Hills,2.86,25,2026-04-18 10:50:00,Clear,Medium,3.3
+D00321,11,Westfield,Westfield,1.4,23,2026-07-26 08:25:00,Cloudy,Medium,4.3
+D00322,25,Riverside,Riverside,2.22,20,2026-05-31 09:20:00,Rain,Low,4.5
+D00323,35,Downtown,Downtown,2.78,24,2026-07-08 01:26:00,Rain,Medium,3.8
+D00324,31,Riverside,Riverside,4.9,34,2026-07-20 09:41:00,Clear,Low,4.2
+D00325,31,Riverside,Riverside,0.9,17,2026-04-08 08:41:00,Clear,Low,4.4
+D00326,28,Westfield,Westfield,3.75,23,2026-05-04 11:46:00,Clear,Low,3.2
+D00327,35,Downtown,Downtown,4.04,29,2026-07-25 18:52:00,Rain,Medium,5.0
+D00328,4,Riverside,Riverside,2.2,22,2026-07-16 14:43:00,Clear,Low,4.4
+D00329,32,Eastgate,Eastgate,10.25,33,2026-08-03 13:55:00,Fog,Low,4.0
+D00330,25,Downtown,Downtown,11.72,39,2026-06-09 11:11:00,Clear,High,4.9
+D00331,25,Old Town,Old Town,1.27,17,2026-07-02 03:14:00,Fog,Medium,5.0
+D00332,14,Eastgate,Eastgate,2.67,16,2026-04-22 14:00:00,Clear,Low,4.3
+D00333,39,Westfield,Westfield,6.4,28,2026-07-20 16:50:00,Cloudy,Low,4.1
+D00334,10,Harbor View,Harbor View,3.41,41,2026-07-15 19:29:00,Fog,High,3.2
+D00335,25,Eastgate,Westfield,5.7,23,2026-08-01 08:15:00,Clear,Medium,4.6
+D00336,39,Riverside,Riverside,4.11,26,2026-03-29 19:32:00,Clear,Medium,4.3
+D00337,40,Eastgate,Eastgate,8.17,41,2026-05-21 00:56:00,Rain,Medium,4.1
+D00338,27,Westfield,Westfield,1.55,19,2026-07-18 07:18:00,Cloudy,Low,4.1
+D00339,37,Westfield,Sunset Hills,7.41,29,2026-03-30 04:16:00,Clear,Low,4.2
+D00340,30,Westfield,Westfield,5.46,24,2026-03-22 00:04:00,Clear,Medium,4.0
+D00341,5,Harbor View,Riverside,6.75,28,2026-07-17 00:46:00,Clear,Medium,5.0
+D00342,7,Westfield,Westfield,5.58,30,2026-04-16 01:18:00,Clear,High,4.1
+D00343,21,Riverside,Old Town,7.89,31,2026-05-08 10:12:00,Cloudy,Low,4.9
+D00344,29,Harbor View,Downtown,0.98,29,2026-08-03 14:22:00,Clear,High,4.3
+D00345,18,Riverside,Riverside,1.86,18,2026-03-18 05:51:00,Clear,Low,5.0
+D00346,6,Uptown,Uptown,8.9,41,2026-06-17 00:56:00,Cloudy,Low,3.5
+D00347,20,Riverside,Harbor View,9.43,45,2026-07-22 22:02:00,Clear,High,4.6
+D00348,39,Downtown,Harbor View,1.26,15,2026-07-29 14:27:00,Rain,Low,4.4
+D00349,39,Uptown,Uptown,9.61,24,2026-06-16 10:42:00,Clear,Low,4.4
+D00350,26,Downtown,Downtown,7.06,30,2026-07-09 19:30:00,Clear,Medium,4.9
+D00351,5,Downtown,Old Town,8.32,25,2026-03-17 21:53:00,Clear,Low,4.9
+D00352,23,Eastgate,Sunset Hills,11.15,37,2026-07-05 09:58:00,Clear,Medium,4.9
+D00353,40,Westfield,Westfield,9.81,41,2026-08-08 13:16:00,Clear,Medium,4.9
+D00354,31,Eastgate,Uptown,10.95,53,2026-08-07 11:23:00,Rain,Low,4.1
+D00355,30,Westfield,Riverside,8.23,34,2026-05-04 02:43:00,Fog,Medium,4.5
+D00356,25,Downtown,Riverside,7.49,26,2026-05-23 08:05:00,Clear,Low,4.2
+D00357,34,Riverside,Riverside,1.01,18,2026-05-03 00:50:00,Cloudy,Medium,5.0
+D00358,17,Westfield,Downtown,2.5,35,2026-03-22 15:46:00,Storm,Medium,4.5
+D00359,16,Uptown,Uptown,5.83,29,2026-05-24 04:39:00,Clear,Medium,3.9
+D00360,34,Westfield,Westfield,7.13,26,2026-07-05 03:01:00,Clear,Low,4.1
+D00361,2,Uptown,Harbor View,9.15,29,2026-04-28 14:32:00,Cloudy,Medium,4.0
+D00362,2,Eastgate,Eastgate,1.09,22,2026-06-13 16:17:00,Clear,High,5.0
+D00363,25,Sunset Hills,Sunset Hills,1.16,12,2026-07-01 17:46:00,Cloudy,Low,4.9
+D00364,14,Uptown,Uptown,8.5,40,2026-04-21 04:29:00,Storm,High,4.5
+D00365,21,Westfield,Downtown,5.92,44,2026-03-31 20:32:00,Storm,High,4.7
+D00366,25,Downtown,Downtown,5.26,23,2026-06-24 14:32:00,Clear,High,4.4
+D00367,34,Westfield,Westfield,6.41,36,2026-04-18 21:14:00,Clear,Medium,3.8
+D00368,2,Old Town,Old Town,3.6,25,2026-06-21 09:55:00,Cloudy,High,3.5
+D00369,29,Westfield,Westfield,8.94,36,2026-03-30 01:36:00,Fog,Medium,4.7
+D00370,37,Old Town,Uptown,8.77,33,2026-07-05 18:11:00,Clear,Low,3.7
+D00371,13,Downtown,Westfield,10.38,35,2026-08-08 09:29:00,Rain,Low,4.0
+D00372,27,Harbor View,Harbor View,6.93,39,2026-08-10 16:04:00,Rain,Medium,4.0
+D00373,10,Riverside,Westfield,2.02,24,2026-05-19 21:57:00,Fog,Low,5.0
+D00374,38,Eastgate,Riverside,10.85,59,2026-05-27 13:37:00,Cloudy,High,3.8
+D00375,18,Uptown,Uptown,3.14,30,2026-03-30 17:16:00,Clear,Medium,4.2
+D00376,39,Uptown,Uptown,11.18,39,2026-03-17 04:38:00,Rain,Medium,3.6
+D00377,19,Harbor View,Harbor View,9.72,25,2026-08-05 09:20:00,Cloudy,Low,4.0
+D00378,14,Downtown,Westfield,4.16,34,2026-06-07 21:41:00,Rain,High,4.5
+D00379,13,Uptown,Sunset Hills,2.32,22,2026-04-12 22:19:00,Clear,Medium,3.5
+D00380,4,Downtown,Downtown,1.01,29,2026-05-23 06:26:00,Rain,Low,3.8
+D00381,2,Uptown,Uptown,2.9,19,2026-03-18 04:36:00,Clear,High,5.0
+D00382,6,Sunset Hills,Old Town,6.68,38,2026-04-18 14:47:00,Clear,Medium,4.2
+D00383,33,Westfield,Westfield,6.66,34,2026-04-10 00:05:00,Cloudy,Low,3.5
+D00384,3,Harbor View,Harbor View,4.28,31,2026-03-31 21:00:00,Clear,High,3.9
+D00385,20,Downtown,Downtown,3.15,18,2026-05-24 03:03:00,Clear,Low,4.2
+D00386,11,Downtown,Downtown,3.11,23,2026-03-21 07:54:00,Clear,Low,4.9
+D00387,5,Riverside,Old Town,2.26,20,2026-03-26 09:57:00,Clear,Medium,4.5
+D00388,39,Uptown,Sunset Hills,9.96,26,2026-05-12 14:39:00,Cloudy,Medium,4.0
+D00389,9,Uptown,Sunset Hills,8.47,50,2026-07-18 09:41:00,Cloudy,Medium,4.4
+D00390,26,Old Town,Old Town,1.14,15,2026-05-20 09:29:00,Clear,Medium,4.5
+D00391,7,Westfield,Riverside,1.59,18,2026-05-20 06:19:00,Clear,Medium,4.2
+D00392,25,Uptown,Uptown,9.62,30,2026-04-23 10:24:00,Rain,Low,4.1
+D00393,38,Eastgate,Eastgate,5.79,33,2026-03-22 20:08:00,Clear,Medium,3.8
+D00394,32,Westfield,Riverside,7.3,34,2026-06-17 19:04:00,Cloudy,High,3.5
+D00395,40,Uptown,Uptown,4.35,38,2026-06-20 02:04:00,Rain,High,5.0
+D00396,38,Downtown,Harbor View,4.94,34,2026-07-10 14:57:00,Rain,Low,3.3
+D00397,16,Old Town,Harbor View,5.35,28,2026-05-22 01:36:00,Clear,Low,4.5
+D00398,10,Riverside,Uptown,8.06,46,2026-07-08 23:56:00,Clear,High,3.0
+D00399,27,Harbor View,Harbor View,5.55,32,2026-06-26 09:28:00,Cloudy,Medium,4.7
+D00400,16,Harbor View,Harbor View,4.91,33,2026-04-28 06:24:00,Fog,Medium,4.0
+D00401,34,Downtown,Downtown,7.63,33,2026-07-22 07:04:00,Clear,Medium,3.6
+D00402,4,Uptown,Uptown,6.54,33,2026-08-09 08:31:00,Clear,Medium,4.8
+D00403,3,Harbor View,Westfield,7.85,35,2026-03-20 15:57:00,Rain,Medium,3.9
+D00404,32,Uptown,Uptown,2.28,24,2026-07-23 15:44:00,Clear,High,4.3
+D00405,29,Eastgate,Westfield,9.75,39,2026-06-12 08:49:00,Storm,Low,4.3
+D00406,27,Westfield,Westfield,2.67,37,2026-04-21 00:20:00,Rain,High,4.3
+D00407,30,Westfield,Westfield,11.13,32,2026-04-12 00:12:00,Clear,Medium,4.5
+D00408,19,Harbor View,Harbor View,11.51,29,2026-05-23 07:17:00,Clear,Medium,5.0
+D00409,18,Downtown,Westfield,9.46,42,2026-03-15 11:31:00,Cloudy,Medium,4.0
+D00410,36,Downtown,Riverside,6.68,34,2026-08-08 10:54:00,Cloudy,Medium,3.8
+D00411,39,Old Town,Eastgate,1.77,22,2026-07-11 01:53:00,Rain,Medium,3.6
+D00412,12,Downtown,Downtown,11.13,51,2026-07-23 03:31:00,Clear,Medium,3.6
+D00413,5,Downtown,Harbor View,3.69,26,2026-05-04 13:57:00,Cloudy,Low,4.9
+D00414,32,Eastgate,Eastgate,8.01,33,2026-04-23 17:21:00,Fog,Medium,4.3
+D00415,29,Downtown,Uptown,5.17,20,2026-08-11 22:18:00,Clear,Low,4.4
+D00416,28,Westfield,Riverside,5.11,40,2026-03-26 17:00:00,Cloudy,High,4.6
+D00417,20,Westfield,Westfield,10.36,53,2026-07-19 12:26:00,Clear,High,3.6
+D00418,13,Riverside,Riverside,10.71,30,2026-05-12 08:55:00,Clear,Low,4.3
+D00419,25,Uptown,Westfield,9.89,28,2026-04-06 06:07:00,Fog,Low,4.7
+D00420,14,Westfield,Sunset Hills,7.29,31,2026-03-27 19:13:00,Fog,Low,4.8
+D00421,9,Downtown,Downtown,9.69,43,2026-07-30 14:08:00,Clear,Low,3.6
+D00422,40,Sunset Hills,Sunset Hills,9.89,43,2026-06-21 10:39:00,Fog,Medium,5.0
+D00423,14,Riverside,Riverside,3.87,18,2026-05-18 21:53:00,Cloudy,Low,4.6
+D00424,7,Westfield,Uptown,0.87,10,2026-08-07 08:55:00,Clear,Low,3.6
+D00425,9,Harbor View,Harbor View,5.41,44,2026-06-03 07:32:00,Fog,Medium,4.2
+D00426,20,Eastgate,Eastgate,2.12,20,2026-03-22 16:48:00,Rain,Low,5.0
+D00427,14,Downtown,Downtown,10.25,42,2026-07-14 19:17:00,Fog,Medium,5.0
+D00428,14,Old Town,Old Town,9.09,33,2026-04-17 22:54:00,Fog,Low,3.7
+D00429,29,Uptown,Uptown,8.38,34,2026-04-26 17:13:00,Clear,High,4.4
+D00430,15,Uptown,Uptown,5.68,38,2026-04-09 22:04:00,Clear,Medium,4.6
+D00431,23,Downtown,Downtown,7.17,20,2026-07-10 22:16:00,Clear,Low,4.5
+D00432,39,Old Town,Uptown,3.37,22,2026-03-17 06:06:00,Clear,Medium,4.1
+D00433,1,Sunset Hills,Sunset Hills,5.66,39,2026-06-09 16:40:00,Clear,High,3.8
+D00434,3,Sunset Hills,Downtown,6.17,32,2026-04-25 07:35:00,Cloudy,High,4.3
+D00435,27,Harbor View,Harbor View,11.99,47,2026-05-28 16:19:00,Clear,Medium,4.6
+D00436,30,Westfield,Harbor View,6.0,41,2026-06-25 12:20:00,Rain,High,4.6
+D00437,28,Downtown,Eastgate,4.56,35,2026-07-22 04:04:00,Fog,Medium,3.9
+D00438,30,Eastgate,Eastgate,7.06,30,2026-05-10 18:19:00,Clear,Medium,5.0
+D00439,31,Sunset Hills,Eastgate,10.86,58,2026-06-15 13:38:00,Rain,Medium,4.1
+D00440,35,Old Town,Westfield,9.76,46,2026-04-18 04:37:00,Fog,High,4.0
+D00441,6,Westfield,Westfield,3.89,33,2026-07-23 20:50:00,Cloudy,Medium,3.8
+D00442,35,Westfield,Westfield,8.02,31,2026-04-26 09:13:00,Clear,Low,4.0
+D00443,38,Uptown,Old Town,8.6,45,2026-04-09 05:18:00,Cloudy,Medium,4.4
+D00444,15,Sunset Hills,Sunset Hills,4.75,33,2026-05-30 22:51:00,Clear,Low,3.9
+D00445,10,Old Town,Old Town,2.22,21,2026-08-01 13:24:00,Clear,Low,4.3
+D00446,24,Harbor View,Harbor View,2.16,34,2026-07-01 06:41:00,Clear,High,3.0
+D00447,35,Downtown,Downtown,4.05,31,2026-05-28 08:03:00,Fog,High,4.1
+D00448,8,Sunset Hills,Sunset Hills,6.97,33,2026-08-01 19:17:00,Clear,Medium,3.8
+D00449,13,Uptown,Uptown,1.74,25,2026-06-01 17:59:00,Cloudy,Medium,3.9
+D00450,39,Eastgate,Eastgate,5.25,24,2026-07-28 02:37:00,Cloudy,Medium,4.4
+D00451,36,Uptown,Uptown,9.8,49,2026-04-20 00:34:00,Clear,High,4.0
+D00452,39,Uptown,Uptown,6.68,28,2026-05-26 08:05:00,Clear,High,4.0
+D00453,12,Riverside,Riverside,2.88,31,2026-03-19 19:48:00,Clear,Medium,4.5
+D00454,36,Sunset Hills,Sunset Hills,3.74,30,2026-08-05 23:51:00,Fog,High,4.4
+D00455,32,Harbor View,Downtown,11.94,34,2026-07-12 15:29:00,Clear,Medium,3.9
+D00456,8,Eastgate,Eastgate,3.71,20,2026-03-17 23:06:00,Rain,Low,4.5
+D00457,24,Old Town,Old Town,6.73,43,2026-07-30 14:42:00,Fog,Medium,3.8
+D00458,21,Uptown,Westfield,8.51,36,2026-06-03 02:16:00,Clear,Medium,4.1
+D00459,32,Old Town,Old Town,2.53,19,2026-07-01 20:47:00,Clear,Low,3.9
+D00460,30,Uptown,Uptown,4.7,15,2026-07-09 23:30:00,Cloudy,Low,4.9
+D00461,20,Downtown,Riverside,8.58,40,2026-06-16 19:06:00,Cloudy,Low,5.0
+D00462,2,Sunset Hills,Downtown,9.68,32,2026-06-22 20:58:00,Rain,Low,4.5
+D00463,7,Eastgate,Eastgate,8.31,30,2026-03-14 17:49:00,Clear,Low,3.8
+D00464,33,Sunset Hills,Riverside,0.96,14,2026-07-17 05:12:00,Clear,Low,5.0
+D00465,33,Harbor View,Harbor View,8.34,46,2026-03-14 18:32:00,Clear,High,4.0
+D00466,21,Eastgate,Eastgate,9.34,41,2026-03-31 19:29:00,Cloudy,Medium,4.3
+D00467,39,Sunset Hills,Sunset Hills,5.36,31,2026-04-20 16:25:00,Fog,Medium,3.4
+D00468,1,Old Town,Old Town,6.65,23,2026-07-16 11:32:00,Cloudy,Low,4.8
+D00469,24,Harbor View,Harbor View,10.19,44,2026-04-30 20:46:00,Cloudy,Low,3.5
+D00470,31,Old Town,Harbor View,2.45,19,2026-04-09 07:43:00,Clear,Low,4.4
+D00471,4,Uptown,Uptown,7.57,33,2026-08-05 18:36:00,Clear,Low,3.6
+D00472,13,Riverside,Sunset Hills,4.65,30,2026-04-04 15:26:00,Storm,Medium,4.2
+D00473,29,Uptown,Sunset Hills,2.78,26,2026-04-16 22:58:00,Cloudy,High,4.1
+D00474,25,Sunset Hills,Sunset Hills,7.21,26,2026-03-23 02:26:00,Clear,High,4.3
+D00475,23,Riverside,Riverside,2.24,17,2026-08-04 05:58:00,Clear,High,4.0
+D00476,28,Eastgate,Harbor View,3.54,26,2026-05-14 22:18:00,Clear,Low,4.7
+D00477,11,Downtown,Downtown,10.47,51,2026-08-02 09:18:00,Rain,High,4.8
+D00478,37,Westfield,Westfield,8.54,38,2026-07-17 08:54:00,Clear,Medium,3.5
+D00479,28,Harbor View,Harbor View,4.02,32,2026-07-23 06:47:00,Clear,High,4.4
+D00480,38,Eastgate,Eastgate,9.77,44,2026-06-03 21:24:00,Clear,Low,3.4
+D00481,35,Uptown,Uptown,6.57,34,2026-05-01 15:21:00,Cloudy,Medium,3.7
+D00482,32,Harbor View,Sunset Hills,9.86,50,2026-06-04 03:26:00,Storm,High,3.7
+D00483,30,Westfield,Westfield,4.37,22,2026-05-27 10:34:00,Cloudy,Low,4.8
+D00484,39,Sunset Hills,Sunset Hills,1.11,8,2026-07-13 19:48:00,Cloudy,Low,4.6
+D00485,11,Downtown,Downtown,6.97,33,2026-06-06 15:18:00,Rain,Low,3.4
+D00486,39,Riverside,Harbor View,10.72,40,2026-05-10 02:18:00,Clear,High,3.8
+D00487,38,Downtown,Downtown,2.17,20,2026-07-19 16:22:00,Cloudy,Low,4.1
+D00488,14,Westfield,Westfield,5.37,25,2026-06-18 15:32:00,Storm,Low,4.1
+D00489,16,Downtown,Uptown,4.92,31,2026-05-11 08:15:00,Clear,Medium,4.2
+D00490,16,Downtown,Downtown,4.86,31,2026-05-24 03:16:00,Cloudy,Low,3.5
+D00491,20,Uptown,Eastgate,10.77,53,2026-05-27 17:05:00,Fog,Medium,3.4
+D00492,6,Sunset Hills,Sunset Hills,5.53,33,2026-04-28 13:15:00,Fog,Low,4.5
+D00493,36,Sunset Hills,Sunset Hills,7.99,49,2026-08-04 22:19:00,Rain,High,4.4
+D00494,6,Eastgate,Eastgate,10.1,50,2026-04-01 01:11:00,Cloudy,High,3.2
+D00495,9,Downtown,Downtown,1.75,24,2026-05-20 14:48:00,Clear,Medium,5.0
+D00496,36,Westfield,Eastgate,3.73,28,2026-07-20 09:48:00,Storm,Low,3.8
+D00497,37,Eastgate,Eastgate,11.1,45,2026-03-30 10:11:00,Clear,Medium,4.6
+D00498,32,Westfield,Westfield,11.95,35,2026-06-20 04:47:00,Clear,Medium,4.5
+D00499,16,Eastgate,Eastgate,8.46,37,2026-06-09 12:23:00,Clear,Low,4.5
+D00500,25,Harbor View,Harbor View,7.04,26,2026-06-07 21:54:00,Clear,High,4.4
+D00501,17,Downtown,Westfield,2.28,30,2026-05-02 02:37:00,Storm,Low,4.5
+D00502,9,Uptown,Uptown,3.72,30,2026-03-29 10:51:00,Clear,High,4.3
+D00503,19,Downtown,Westfield,10.8,35,2026-04-01 13:33:00,Clear,High,3.9
+D00504,13,Westfield,Westfield,3.71,28,2026-06-26 22:30:00,Cloudy,Medium,4.2
+D00505,36,Sunset Hills,Sunset Hills,2.46,17,2026-07-14 00:05:00,Clear,Low,5.0
+D00506,38,Harbor View,Harbor View,7.19,36,2026-08-10 07:11:00,Clear,Low,3.4
+D00507,8,Westfield,Westfield,1.12,14,2026-07-15 13:51:00,Clear,Medium,4.5
+D00508,3,Westfield,Sunset Hills,10.96,39,2026-05-20 00:14:00,Cloudy,Low,3.5
+D00509,5,Riverside,Harbor View,2.79,32,2026-07-19 11:44:00,Fog,High,4.7
+D00510,10,Eastgate,Eastgate,11.12,56,2026-04-23 00:09:00,Fog,Medium,4.2
+D00511,29,Westfield,Westfield,1.81,19,2026-03-20 04:33:00,Clear,Medium,5.0
+D00512,15,Westfield,Uptown,8.05,48,2026-04-07 07:20:00,Clear,Medium,4.5
+D00513,20,Sunset Hills,Sunset Hills,6.97,37,2026-05-28 05:57:00,Fog,Medium,4.1
+D00514,17,Uptown,Uptown,9.09,44,2026-04-05 23:53:00,Clear,High,4.0
+D00515,38,Sunset Hills,Sunset Hills,3.77,42,2026-04-18 04:09:00,Fog,High,4.4
+D00516,7,Old Town,Old Town,0.95,15,2026-08-10 11:53:00,Cloudy,Medium,4.8
+D00517,40,Eastgate,Eastgate,2.2,27,2026-05-02 14:55:00,Clear,Low,4.4
+D00518,10,Westfield,Westfield,4.17,34,2026-03-27 17:55:00,Clear,Medium,4.3
+D00519,31,Downtown,Eastgate,10.09,47,2026-06-21 14:24:00,Clear,Low,4.7
+D00520,38,Eastgate,Westfield,6.24,42,2026-08-02 08:35:00,Rain,Medium,3.3
+D00521,2,Old Town,Old Town,10.8,24,2026-03-23 21:43:00,Clear,Medium,4.3
+D00522,11,Riverside,Sunset Hills,6.49,42,2026-05-15 09:46:00,Rain,Medium,3.7
+D00523,19,Sunset Hills,Harbor View,11.67,29,2026-05-11 08:09:00,Clear,Low,4.1
+D00524,11,Eastgate,Eastgate,3.43,34,2026-04-27 08:41:00,Rain,High,4.5
+D00525,3,Uptown,Uptown,2.15,15,2026-07-13 04:46:00,Clear,Low,4.8
+D00526,33,Eastgate,Downtown,9.26,43,2026-04-21 09:07:00,Fog,High,3.5
+D00527,7,Old Town,Eastgate,4.07,25,2026-05-11 18:14:00,Clear,Medium,4.1
+D00528,8,Harbor View,Harbor View,10.15,35,2026-04-27 23:45:00,Clear,Low,4.5
+D00529,16,Westfield,Harbor View,5.6,45,2026-06-14 19:09:00,Fog,High,3.9
+D00530,10,Downtown,Riverside,5.3,37,2026-07-21 13:40:00,Cloudy,Medium,4.3
+D00531,4,Westfield,Westfield,8.43,46,2026-04-26 11:04:00,Rain,Low,3.0
+D00532,40,Westfield,Sunset Hills,9.63,48,2026-06-20 06:21:00,Cloudy,Medium,3.5
+D00533,6,Riverside,Riverside,9.09,48,2026-05-04 00:14:00,Clear,High,4.3
+D00534,11,Downtown,Downtown,3.5,28,2026-03-26 05:44:00,Cloudy,Medium,4.3
+D00535,33,Eastgate,Eastgate,7.21,30,2026-07-11 09:41:00,Clear,Low,5.0
+D00536,20,Riverside,Uptown,3.57,29,2026-05-07 07:13:00,Clear,Medium,3.8
+D00537,6,Uptown,Uptown,5.8,31,2026-07-09 08:47:00,Clear,Medium,3.9
+D00538,32,Westfield,Westfield,11.42,39,2026-04-21 01:01:00,Cloudy,Medium,4.7
+D00539,33,Downtown,Downtown,1.17,21,2026-06-18 09:30:00,Clear,Medium,4.2
+D00540,24,Uptown,Uptown,4.96,28,2026-03-31 19:53:00,Fog,Low,4.3
+D00541,20,Riverside,Riverside,6.93,28,2026-04-08 23:53:00,Clear,Low,4.3
+D00542,31,Sunset Hills,Uptown,5.96,38,2026-07-07 07:20:00,Clear,Medium,3.8
+D00543,15,Westfield,Westfield,5.76,32,2026-07-31 02:04:00,Clear,Low,4.3
+D00544,8,Westfield,Westfield,7.26,33,2026-06-23 04:26:00,Clear,Medium,4.7
+D00545,35,Old Town,Westfield,8.7,45,2026-06-20 16:07:00,Storm,Medium,3.5
+D00546,2,Uptown,Uptown,6.71,25,2026-04-27 23:05:00,Clear,Low,4.2
+D00547,6,Westfield,Westfield,1.46,21,2026-04-29 02:50:00,Fog,Low,3.9
+D00548,21,Downtown,Downtown,3.48,22,2026-07-12 22:48:00,Rain,Low,4.3
+D00549,21,Harbor View,Harbor View,5.36,33,2026-07-26 08:59:00,Clear,High,5.0
+D00550,36,Westfield,Westfield,1.74,25,2026-03-19 10:32:00,Rain,Low,4.2
+D00551,28,Riverside,Riverside,7.75,40,2026-08-11 09:07:00,Cloudy,Low,4.6
+D00552,25,Eastgate,Eastgate,1.31,15,2026-03-15 07:42:00,Cloudy,Medium,4.9
+D00553,36,Downtown,Eastgate,8.44,33,2026-04-04 13:04:00,Clear,Low,3.7
+D00554,14,Harbor View,Old Town,8.04,34,2026-08-07 01:52:00,Clear,Medium,3.8
+D00555,26,Riverside,Riverside,10.8,42,2026-07-23 06:59:00,Cloudy,Medium,5.0
+D00556,12,Harbor View,Riverside,2.96,26,2026-04-15 12:01:00,Clear,Medium,3.5
+D00557,40,Westfield,Westfield,11.63,46,2026-06-16 16:29:00,Clear,Medium,3.4
+D00558,18,Uptown,Uptown,8.19,44,2026-06-29 06:48:00,Rain,Medium,4.0
+D00559,17,Uptown,Westfield,11.91,49,2026-06-23 02:59:00,Cloudy,Medium,4.7
+D00560,4,Uptown,Uptown,8.42,45,2026-04-29 15:53:00,Clear,Medium,3.1
+D00561,35,Harbor View,Harbor View,1.72,20,2026-05-03 17:39:00,Rain,Low,3.0
+D00562,13,Old Town,Old Town,1.88,17,2026-07-26 03:20:00,Clear,High,4.0
+D00563,7,Sunset Hills,Sunset Hills,4.54,33,2026-05-16 22:08:00,Cloudy,High,3.5
+D00564,8,Uptown,Downtown,10.29,37,2026-05-07 13:04:00,Clear,Low,3.9
+D00565,7,Old Town,Old Town,5.07,33,2026-07-29 14:06:00,Clear,High,4.9
+D00566,25,Harbor View,Riverside,9.57,27,2026-05-17 03:17:00,Clear,Low,4.5
+D00567,13,Uptown,Uptown,5.52,25,2026-04-03 15:38:00,Cloudy,Medium,5.0
+D00568,28,Downtown,Old Town,6.86,33,2026-05-24 05:04:00,Clear,Medium,4.0
+D00569,16,Downtown,Downtown,11.74,49,2026-04-25 12:48:00,Rain,Low,4.2
+D00570,22,Uptown,Uptown,5.49,34,2026-05-18 04:41:00,Clear,Medium,4.1
+D00571,15,Harbor View,Harbor View,9.03,45,2026-06-18 16:30:00,Fog,Low,3.8
+D00572,1,Uptown,Uptown,4.05,24,2026-03-22 20:51:00,Clear,Medium,4.2
+D00573,12,Sunset Hills,Uptown,2.8,32,2026-05-17 06:45:00,Clear,High,4.2
+D00574,8,Uptown,Westfield,9.87,53,2026-04-17 16:37:00,Cloudy,High,3.8
+D00575,10,Westfield,Eastgate,4.99,48,2026-03-28 11:16:00,Rain,High,4.2
+D00576,19,Westfield,Westfield,3.94,16,2026-07-29 03:10:00,Clear,Medium,4.1
+D00577,40,Uptown,Uptown,6.5,33,2026-05-04 03:12:00,Clear,Medium,4.7
+D00578,18,Uptown,Uptown,3.12,37,2026-03-15 03:58:00,Storm,Medium,4.5
+D00579,11,Eastgate,Eastgate,1.74,18,2026-07-21 19:12:00,Clear,Medium,4.1
+D00580,30,Old Town,Old Town,5.08,18,2026-04-06 13:43:00,Clear,Low,4.0
+D00581,15,Eastgate,Eastgate,3.04,22,2026-05-11 22:26:00,Clear,Low,5.0
+D00582,39,Westfield,Westfield,10.01,30,2026-08-09 14:42:00,Cloudy,Medium,4.6
+D00583,33,Westfield,Eastgate,3.15,22,2026-06-14 00:13:00,Clear,Medium,4.1
+D00584,21,Harbor View,Harbor View,5.84,33,2026-04-27 17:32:00,Rain,Medium,4.1
+D00585,23,Uptown,Uptown,5.32,24,2026-04-25 02:12:00,Cloudy,Medium,4.4
+D00586,22,Uptown,Harbor View,1.51,20,2026-05-06 17:35:00,Clear,Medium,5.0
+D00587,11,Eastgate,Uptown,6.27,30,2026-08-03 01:22:00,Clear,Low,4.2
+D00588,4,Eastgate,Eastgate,10.99,61,2026-06-29 13:05:00,Clear,High,4.3
+D00589,9,Harbor View,Harbor View,7.24,36,2026-04-12 18:22:00,Clear,Low,3.6
+D00590,5,Westfield,Eastgate,7.18,30,2026-03-30 13:02:00,Clear,Medium,4.3
+D00591,20,Westfield,Uptown,10.88,47,2026-04-27 16:49:00,Cloudy,Medium,3.9
+D00592,3,Sunset Hills,Uptown,4.07,26,2026-06-02 03:26:00,Fog,Medium,3.9
+D00593,5,Eastgate,Eastgate,2.65,20,2026-05-20 10:32:00,Clear,Low,4.5
+D00594,22,Sunset Hills,Sunset Hills,0.92,26,2026-06-23 11:58:00,Clear,High,5.0
+D00595,36,Old Town,Old Town,9.99,39,2026-04-21 19:30:00,Cloudy,Low,4.2
+D00596,5,Old Town,Westfield,2.79,22,2026-07-03 09:38:00,Cloudy,High,4.2
+D00597,20,Harbor View,Harbor View,5.03,33,2026-08-10 22:11:00,Clear,Low,4.0
+D00598,22,Harbor View,Riverside,10.16,51,2026-06-16 20:09:00,Cloudy,Medium,4.2
+D00599,13,Eastgate,Eastgate,2.15,19,2026-03-26 11:33:00,Clear,Medium,4.8
+D00600,30,Sunset Hills,Sunset Hills,4.93,20,2026-06-01 03:21:00,Clear,Low,5.0
+D00601,35,Uptown,Uptown,11.79,47,2026-07-18 04:40:00,Cloudy,Medium,3.9
+D00602,31,Uptown,Uptown,6.52,39,2026-03-15 09:36:00,Cloudy,Medium,4.1
+D00603,16,Sunset Hills,Sunset Hills,1.47,20,2026-06-10 04:55:00,Clear,Low,4.6
+D00604,22,Westfield,Westfield,11.75,58,2026-08-01 07:10:00,Rain,Low,4.1
+D00605,35,Riverside,Eastgate,5.07,33,2026-06-16 04:05:00,Clear,Medium,4.3
+D00606,10,Harbor View,Harbor View,10.11,53,2026-06-28 05:25:00,Fog,Low,4.4
+D00607,28,Old Town,Westfield,11.64,45,2026-05-30 05:32:00,Clear,High,4.2
+D00608,31,Harbor View,Harbor View,11.48,56,2026-04-23 19:08:00,Clear,High,4.1
+D00609,35,Westfield,Westfield,5.99,28,2026-06-28 15:36:00,Clear,Medium,4.2
+D00610,10,Harbor View,Harbor View,4.99,31,2026-04-05 00:14:00,Clear,Medium,4.7
+D00611,38,Uptown,Uptown,11.24,63,2026-08-02 20:36:00,Clear,High,3.7
+D00612,32,Westfield,Downtown,3.56,23,2026-05-05 10:13:00,Clear,High,4.9
+D00613,39,Harbor View,Uptown,7.28,26,2026-06-07 16:22:00,Cloudy,Low,4.4
+D00614,38,Uptown,Uptown,10.09,48,2026-06-24 10:50:00,Clear,Low,3.9
+D00615,27,Sunset Hills,Riverside,2.4,27,2026-03-18 12:08:00,Cloudy,High,4.5
+D00616,7,Uptown,Harbor View,4.03,21,2026-03-30 10:19:00,Clear,Low,4.6
+D00617,37,Harbor View,Harbor View,9.86,47,2026-07-27 00:49:00,Clear,High,3.7
+D00618,11,Uptown,Uptown,1.52,11,2026-05-07 20:43:00,Clear,Low,4.5
+D00619,1,Old Town,Old Town,6.65,35,2026-08-01 20:47:00,Clear,Medium,4.1
+D00620,22,Eastgate,Eastgate,4.64,25,2026-05-09 02:04:00,Clear,Low,4.7
