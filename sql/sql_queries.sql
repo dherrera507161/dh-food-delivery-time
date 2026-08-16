@@ -1,6 +1,7 @@
 -- For queries designed in order to answer the questions
 
--- Question 1: Top 5 customer areas with highest average delivery time in the last 30 days
+--Question 1: Top 5 customer areas with highest average delivery time in the last 30 days
+
 SELECT customer_area, ROUND(AVG(delivery_time_min),2) AS avg_time
 FROM deliveries.csv -- Include .csv if running locally, delete .csv if running with a dedicated SQL server
 WHERE order_placed_at >= CURRENT_DATE - INTERVAL '30 days' -- Could change NOW() vs CURRENT_DATE depending on precision wanted
