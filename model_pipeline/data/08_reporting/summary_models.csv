@@ -1,0 +1,9 @@
+Dataset,Metric,Linear Regression,Lasso Regression,Random Forest,XGBoost,CatBoost
+Train,R2,0.78,0.78,0.78,0.83,0.8
+Train,MAE,6.41,6.43,6.76,5.86,6.2
+Train,MAPE,0.11,0.11,0.12,0.1,0.11
+Train,RMSE,10.22,10.39,10.29,9.02,9.74
+Test,R2,0.77,0.77,0.74,0.75,0.75
+Test,MAE,6.84,6.82,8.1,7.21,7.03
+Test,MAPE,0.11,0.11,0.16,0.13,0.12
+Test,RMSE,10.85,10.63,11.46,11.19,11.12
