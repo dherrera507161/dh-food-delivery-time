@@ -33,10 +33,10 @@ Nevertheless, as stated in the assumptions, there is a performance-based reason 
 ## Assumptions
 After observing the data, I have assumed the following statements:
 1. All of the records are coming from clean, reliable data and there are no abnormal readings. As such, I should not filter out any of the rows present in the data despite some being over 2 hours of delivery time.
-2. On the first point, I am assuming that incorrectly identifying lengthy deliveries would be damaging to the business. As such, I must include examples of late deliveries even if they do not fall on the standard outlier test rules
+2. On the first point, I am assuming that incorrectly identifying lengthy deliveries would be damaging to the business. As such, I must include examples of late deliveries even if they are outside the normal data values and would normally be considered outliers.
 3. If I see a future record with a delivery time of over 5 hours, I will assume it does come from an inadequate data extraction.
-4. All null values are due to a empty reading from the source that collected that specific data type. I cannot infer, or assume any value based on this. For example, if the courier years of experience column is a null, I cannot just assume zero.
+4. All null values are due to a empty reading from the source that collected that specific data type. I cannot infer or assume any value based on this. For example, if the courier years of experience column is a null, I cannot just assume zero.
 5. Assuming the model cannot be inputted nulls as a value, the best way for me to process categorical nulls is to create another category. 
 6. In a similar situation, the best way for me to process numerical nulls is to just make them equal to the average of the training dataset.
-7. In models that can handle null input values, it is better for the performance to leave them untouched.
+7. In models that can handle null input values, it is better for the performance of the model to leave them untouched.
 8. The adequate train/test split for this situation is 80/20.
