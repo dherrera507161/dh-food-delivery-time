@@ -1,0 +1,167 @@
+# Here you can define all your datasets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/catalog-data/introduction/#data-catalog
+
+## RAW TABLES
+
+raw_food_delivery:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/Food_Delivery_Times.csv
+
+## INTERMEDIATE TABLES
+
+int_food_delivery:
+  type: pandas.CSVDataset
+  filepath: data/02_int/int_Food_Delivery_Times.csv
+
+## PRIMARY TABLES
+
+pri_train_food_delivery:
+  type: pandas.CSVDataset
+  filepath: data/03_pri/pri_train_food_delivery.csv
+
+pri_test_food_delivery:
+  type: pandas.CSVDataset
+  filepath: data/03_pri/pri_test_food_delivery.csv
+
+## FEATURE TABLES
+
+fea_train_tgt:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/fea_train_tgt.csv
+
+fea_test_tgt:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/fea_test_tgt.csv
+
+## MODEL INPUT
+
+# Stored as Parquet (not CSV) so the "category" dtype set in build_native_model_input
+# survives the catalog round-trip -- CSV would flatten it back to plain strings,
+# which breaks XGBoost's enable_categorical=True at fit/predict time.
+modin_train_native_categorical:
+  type: pandas.ParquetDataset
+  filepath: data/05_model_input/modin_train_native_categorical.parquet
+
+modin_test_native_categorical:
+  type: pandas.ParquetDataset
+  filepath: data/05_model_input/modin_test_native_categorical.parquet
+
+modin_train_encoded_categorical:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/modin_train_encoded_categorical.csv
+
+modin_test_encoded_categorical:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/modin_test_encoded_categorical.csv
+
+
+## MODELS
+
+model_linear_regression:
+  type: pickle.PickleDataset
+  filepath: data/06_models/model_linear_regression.pickle
+
+model_lasso_regression:
+  type: pickle.PickleDataset
+  filepath: data/06_models/model_lasso_regression.pickle
+
+model_random_forest:
+  type: pickle.PickleDataset
+  filepath: data/06_models/model_random_forest.pickle
+
+model_xgboost:
+  type: pickle.PickleDataset
+  filepath: data/06_models/model_xgboost.pickle
+
+model_catboost:
+  type: pickle.PickleDataset
+  filepath: data/06_models/model_catboost.pickle
+
+## MODEL_OUTPUT
+modout_prediction_linear_regression:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_linear_regression.csv
+
+modout_prediction_lasso_regression:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_lasso_regression.csv
+
+modout_prediction_random_forest:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_random_forest.csv
+
+modout_prediction_xgboost:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_xgboost.csv
+
+modout_prediction_catboost:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_catboost.csv
+
+modout_prediction_train_linear_regression:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_train_linear_regression.csv
+
+modout_prediction_train_lasso_regression:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_train_lasso_regression.csv
+
+modout_prediction_train_random_forest:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_train_random_forest.csv
+
+modout_prediction_train_xgboost:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_train_xgboost.csv
+
+modout_prediction_train_catboost:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/modout_prediction_train_catboost.csv
+
+## REPORTING
+
+summary_models:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/summary_models.csv
+
+feature_importance_linear_regression:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/feature_importance_linear_regression.csv
+
+feature_importance_lasso_regression:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/feature_importance_lasso_regression.csv
+
+feature_importance_random_forest:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/feature_importance_random_forest.csv
+
+feature_importance_xgboost:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/feature_importance_xgboost.csv
+
+feature_importance_catboost:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/feature_importance_catboost.csv
+
+shap_summary_random_forest:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/shap_summary_random_forest.csv
+
+shap_summary_xgboost:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/shap_summary_xgboost.csv
+
+shap_summary_catboost:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/shap_summary_catboost.csv
+
+shap_by_category_xgboost:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/shap_by_category_xgboost.csv
+
+shap_by_category_catboost:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/shap_by_category_catboost.csv

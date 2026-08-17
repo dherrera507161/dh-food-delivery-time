@@ -1,0 +1,23 @@
+# This is a boilerplate parameters config generated for pipeline 'model_pipeline'
+# using Kedro 1.5.0.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/1.5.0/configuration/parameters.html
+
+model_options:
+  index_column: Order_ID
+  target_column: Delivery_Time_min
+  test_size: 0.2
+  random_state: 507
+  cv_folds: 5
+  random_forest:
+    min_samples_leaf: 10
+    max_depth: 5
+  xgboost:
+    max_depth: 3
+    learning_rate: 0.05
+  catboost:
+    depth: 3
+    l2_leaf_reg: 10
+  lasso:
+    alpha: 0.1
