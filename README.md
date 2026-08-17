@@ -50,15 +50,6 @@ kedro jupyter notebook   # or: kedro jupyter lab
 - `notebooks/hyperparameter_notebook.ipynb` — train vs test error across hyperparameter sweeps
 - `notebooks/performance_analysis.ipynb` — predicted vs actual by category, with R2 per facet
 
-To run the test suite:
-
-```bash
-pytest                          # everything
-pytest -m test_model_quality    # only the data-quality checks (see tests/pipelines/model_pipeline/test_pipeline.py)
-```
-
 Useful docs:
 - [Kedro documentation](https://docs.kedro.org)
 - [Kedro data catalog](https://docs.kedro.org/en/stable/catalog-data/introduction/)
-- [pytest documentation](https://docs.pytest.org/en/stable/)
-- [pytest markers (`-m`)](https://docs.pytest.org/en/stable/how-to/mark.html)
