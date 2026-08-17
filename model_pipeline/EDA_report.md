@@ -16,7 +16,7 @@ From basic scatterplots, I can visually identify the following relationships:
 
 ## Feature Outliers
 
-For none of the numerical features, there seems to be any outlier values.
+There doesn't seem to be any outlier values for any of the numerical features.
 
 1. Distance KM. Min Value: 0.59 km . Mean Value: 10.06 km. Max Value: 19.99 km. Range= Mean +- 3D = [-7.03,27.15]
 2. Preparation Time. Min Value: 5.00 min . Mean Value: 16.98 min. Max Value: 29.00 min. Range= Mean +- 3D = [-4.63,38.60]
@@ -24,7 +24,7 @@ For none of the numerical features, there seems to be any outlier values.
 
 ## Target Outliers
 
-The target is another story, in theory, there are values that need to be filtrated out according to most common practices:
+The target is another story, in theory, there are values that need to be filtered out according to most common practices:
 
 1. Delivery Time. Min Value: 8 min . Mean Value: 56.73 min. Max Value: 153 min. Range= Mean +- 3D = [-9.48,122.94]
 For example, as there are values above 122.94 minutes in the data, they are eligible to be removed.
