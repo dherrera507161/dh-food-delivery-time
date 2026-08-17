@@ -39,3 +39,4 @@ After observing the data, I have assumed the following statements:
 5. Assuming the model cannot be inputted nulls as a value, the best way for me to process categorical nulls is to create another category. 
 6. In a similar situation, the best way for me to process numerical nulls is to just make them equal to the average of the training dataset.
 7. In models that can handle null input values, it is better for the performance to leave them untouched.
+8. The adequate train/test split for this situation is 80/20.
