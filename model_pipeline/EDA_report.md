@@ -27,7 +27,7 @@ There doesn't seem to be any outlier values for any of the numerical features.
 The target is another story, in theory, there are values that need to be filtered out according to most common practices:
 
 1. Delivery Time. Min Value: 8 min . Mean Value: 56.73 min. Max Value: 153 min. Range= Mean +- 3D = [-9.48,122.94]
-For example, as there are values above 122.94 minutes in the data, they are eligible to be removed.
+As there are values above 122.94 minutes in the data, they are eligible to be removed.
 Nevertheless, as stated in the assumptions, there is a performance-based reason to keep long delivery times in the training and testing data of the model.
 
 ## Assumptions
