@@ -12,7 +12,7 @@ In reality, the answer is never 100% absolute. In honesty, there are solutions a
     b) I could research to see if the training data from rainy days was collected way before the rainy testing data. This could mean there is considerable data drift between my two datasets and worsen the prediction. 
 
 3. Related to the business:
-    a) I could communicate the overall value that the model is bringing to the business by improving the predictions across all categories, not only focusing on the rainy one.
+    a) I could comunicate the overall value that the model is brining to the business by improving the predictions across all categories, not only focusing on the rainy one.
     b) I could ask for more time to implement the previous solutions/collect more datapoints
     c) While the fixes are underway, I could adjust the output (i.e. correction to the underprediction, provide an estimated range) so the business is still able to act on the data while acknowledging the weakness of the model.
 
@@ -48,7 +48,7 @@ My non-obvious insight is thanks to the Lasso Regression model.
 In an era where everyone wants to create and follow the biggest and more expensive models, I was surprised that my decision to test a simpler and less computationally expensive model paid off. In the end, the Lasso Regression model was the architecture with the lowest error metrics (Test RMSE = 10.63). This model architecture was benefitted from having a small number of features and data points to predict. In contrast, the CatBoost model (TEST RMSE = 11.12) is not significantly worse and, if in the future more features/datapoints are added for training, it could really benefit from the non-linear relationships 
 between data and target that could be identified.
 
-Furthermore, it was also really interesting to use it to detect which of all the variables (e.g. Time of Day) were mostly simply contributing noise to the dataset and could actually be removed from the model entirely. More specifically:
+Furthermore, it was also really interesting to use it to detect which of all the variables (e.g. Time of Day) were mostly simply contributing noise to the dataset and could actually be removed from the model entirely. More Ssecifcally:
     1) The weather being rainy.
     2) The time of day being night.
     3) The time of day being evening.
@@ -57,4 +57,24 @@ Furthermore, it was also really interesting to use it to detect which of all the
 ## 5. Going to Production: How would you deploy your model to production? What other components would you need to include/develop in your codebase? Please be as detailed each step of the process, and feel free to showcase some of these components in the codebase.
 
 When going to production, this would be the steps that I add to my codebase:
-1. Pipeline Management Library: Rather than us
+1. Pipeline Management Library: Rather than using notebooks in order to run the code, it would be better to implement the code using a system that divides the code into nodes and pipelines. This has already been implemented in the current code base through the use of the Kedro library. The benefit of this is to make the code easily reviewable while keeping a native .py format across the main parts of the code.
+
+2. To utilise cloud tools, for example (MLFlow for model registry, AWS S3 for file storage) to ensure secure collaborations between multiple team members rather than having to replicate the code locally in everyone's computer separately.
+
+3. A Monitoring Dashboard that shows the current performance of the model vs historical metrics and detects if the model performance is increasing/decreasing across time. Furthermore, it should also monitor the features of the model if we should be concerned about data drift.
+
+4. A model calibration pipeline/ better segmentation of the data to allow for the model to improve the prediction of categories which do not have multiple data points. 
+
+5. A CI/CD platform that allows multiple users to contribute to the codebase, but at the same time, ensures that the standards of the code are maintained through the multiple Pull Requests required to make the codebase grow.
+
+6. The use of apps similar to Docker to ensure that the code is able to easily be run across different computers and clusters with minimal setup inconveniences.
+
+7. The use of libraries such as Pyspark if the dataset is so big that it warrants the use of libraries that use distributed computing rather than use pandas which stay in memory.
+
+8. The use of Terraform to establish the infrastructure of computing clusters if the size of the model grows large enough to warrant it.
+
+9. The addition of an API layer to ensure that incoming data can be read automatically rather than depending on manual uploads.
+
+10. The addition of unit tests to ensure that the data is being uploaded with the correct schema and the current code is able to handle it.
+
+11. To consider the use of AutoML for better training of the current tree-based model and the training of champion models if the performance metrics of the current model decrease across time.
