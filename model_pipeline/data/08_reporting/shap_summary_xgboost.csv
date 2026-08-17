@@ -1,0 +1,8 @@
+Feature,Mean SHAP Value,Mean Absolute SHAP Value
+Distance_km,1.448,13.655
+Weather,-0.211,2.236
+Traffic_Level,-0.403,2.724
+Time_of_Day,-0.054,0.355
+Vehicle_Type,-0.01,0.082
+Preparation_Time_min,-0.802,5.447
+Courier_Experience_yrs,-0.041,1.388

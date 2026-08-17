@@ -1,0 +1,19 @@
+Feature,Category Value,Mean SHAP Value,Mean Absolute SHAP Value
+Weather,Clear,-2.3,2.3
+Weather,Foggy,3.404,3.404
+Weather,Rainy,1.249,1.249
+Weather,Snowy,5.081,5.081
+Weather,Unknown,-0.091,0.091
+Weather,Windy,-1.232,1.232
+Traffic_Level,High,5.736,5.736
+Traffic_Level,Low,-3.508,3.508
+Traffic_Level,Medium,-0.044,0.347
+Traffic_Level,Unknown,2.882,2.882
+Time_of_Day,Afternoon,-0.189,0.219
+Time_of_Day,Evening,-0.097,0.132
+Time_of_Day,Morning,-0.337,0.337
+Time_of_Day,Night,0.188,0.239
+Time_of_Day,Unknown,4.215,4.215
+Vehicle_Type,Bike,-0.048,0.048
+Vehicle_Type,Car,0.197,0.197
+Vehicle_Type,Scooter,-0.069,0.069
