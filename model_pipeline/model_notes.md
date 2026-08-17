@@ -17,10 +17,10 @@ These results can be found on model_pipeline/data/08_reporting/summary_models.cs
 
 # Metric Choice
 
-Considering this is a regression problem that has an issue with large value in the target column, the chosen metric was Root Mean Square Error /RMSE.
+Considering this is a regression problem that has an issue with large values in the target column, the chosen metric was Root Mean Square Error /RMSE.
 
-This is because this metric punishes models that severely underpredict large values, compared to other metrics such as MAE. As explained in the EDA_report.md, this was something we needed to prevent to safeguard customer satisfaction
-As such, this was the metric that guided the training and hyperparameter tuning of the model.
+This is because this metric punishes models that severely underpredict large values, compared to other metrics such as MAE. As explained in the EDA_report.md, this was something we needed to prevent to safeguard customer satisfaction.
+As such, this was the metric that guided the training and hyperparameter tuning of the models.
 
 Furthermore, additional metrics were chosen in order to compare the five models and provide more understanding. These were the following:
 1. R2: For simplicity, and understanding how much of the data variance can be explained by the model.

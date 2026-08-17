@@ -16,7 +16,7 @@ These issues were found to be constant across all model architectures.
 In general, I find the reasons of the model weaknesses to be the following:
 1. The low amount of data (Only 1000 points) makes it really challenging for complex architectures to derive the non-linear relationships between data and target
 2. Long-durations deliveries are less common in the dataset than short-ones. As such, the underprediction of deliveries will be a more common issue
-3. Neither the high traffic, the rainy conditions or the scooters were the main dominant data value across their categories. As such, since the training data was not pre-selected to provide a fair split across datapoints, it is not surprising if these example got overshadowed by the other, more common, data points.
+3. Neither the high traffic, the rainy conditions or the scooters were the main dominant data value across their categories. As such, since the training data was not pre-selected to provide a fair split across datapoints, it is not surprising if these examples got overshadowed by the other, more common, data points.
 4. Similarly, when the category is unknown (Traffic Condition/Weather), predictions are expected to be not as accurate due to their low amount of datapoints in the training set.
 
 These findings were summarised on performance_analysis.ipynb
