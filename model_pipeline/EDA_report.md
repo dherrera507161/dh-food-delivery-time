@@ -11,7 +11,7 @@ There are no strong relationships between two features as evidenced by a correla
 From basic scatterplots, I can visually identify the following relationships:
 1. There is a strong positive correlation between distance and delivery time
 2. There is weaker, but not still noticeable positive correlation between preparation time and delivery time.
-3. There is also a noticable effect of traffic size. As expected, as the traffic conditions worsens, delivery time is expected to increase.
+3. There is also a noticeable effect of traffic size. As expected, as the traffic conditions worsens, delivery time is expected to increase.
 4. All other features did not present a clear linear relationship just from looking at scatterplots that related each feature to the target
 
 ## Feature Outliers
@@ -27,14 +27,14 @@ For none of the numerical features, there seems to be any outlier values.
 The target is another story, in theory, there are values that need to be filtrated out according to most common practices:
 
 1. Delivery Time. Min Value: 8 min . Mean Value: 56.73 min. Max Value: 153 min. Range= Mean +- 3D = [-9.48,122.94]
-For example, as there are values above 122.94 minutes in the data, there are eligible to be removed.
+For example, as there are values above 122.94 minutes in the data, they are eligible to be removed.
 Nevertheless, as stated in the assumptions, there is a performance-based reason to keep long delivery times in the training and testing data of the model.
 
 ## Assumptions
 After observing the data, I have assumed the following statements:
 1. All of the records are coming from clean, reliable data and there are no abnormal readings. As such, I should not filter out any of the rows present in the data despite some being over 2 hours of delivery time.
-2. On the first point, I am assuming that incorrectly identifying lengthly deliveries would be damaging to the business. As such, I must include examples of late deliveries even if they do not fall on the standard outlier test rules
-3. If I see a future record with a delivery time of over 5 hours, I will assume it does come from an unadequate data extraction.
+2. On the first point, I am assuming that incorrectly identifying lengthy deliveries would be damaging to the business. As such, I must include examples of late deliveries even if they do not fall on the standard outlier test rules
+3. If I see a future record with a delivery time of over 5 hours, I will assume it does come from an inadequate data extraction.
 4. All null values are due to a empty reading from the source that collected that specific data type. I cannot infer, or assume any value based on this. For example, if the courier years of experience column is a null, I cannot just assume zero.
 5. Assuming the model cannot be inputted nulls as a value, the best way for me to process categorical nulls is to create another category. 
 6. In a similar situation, the best way for me to process numerical nulls is to just make them equal to the average of the training dataset.

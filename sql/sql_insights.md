@@ -3,7 +3,7 @@
 ## In order to understand more of the business problem, I would perform the following queries. 
 ### I also want to note, if handling raw,real data (not artificial like the created ones) I would do additional queries to verify there are no data duplicates or irrational values (i.e delivery time below zero). Nevertheless, I am limiting my answer to the ones most applicable from a business Point of View:
 
-### 1. I want to find out the top 20 customers with the highest total order value, with their respective total deliveries and average order value. I would this in order to find out who are my most valuable customers that I need to ensure I maintain through promotions and discounts. Furthermore, I could also group this information by region/cuisine_type so I collaborate my strongly with the restaurants present in the area that is bringing me more value.
+### 1. I want to find out the top 20 customers with the highest total order value, with their respective total deliveries and average order value. I would this in order to find out who are my most valuable customers that I need to ensure I maintain through promotions and discounts. Furthermore, I could also group this information by region/cuisine_type so I collaborate more strongly with the restaurants present in the area that is bringing me more value.
 
 ```sql
 SELECT

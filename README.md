@@ -9,7 +9,7 @@ This repo is dedicated for an imaginary food delivery company as a part of a job
 
 - **SQL** (`sql/`): queries use DuckDB, which lets you `FROM file.csv` directly (`pip install duckdb` to run them, then `duckdb < sql_tests.sql` from inside `sql/`). To use another engine, `CREATE TABLE` from each CSV and swap the `FROM <file>.csv` references for the table names.
 
-- **Model pipeline results**: If you just wish to read the data generated, feel free the read the files directly from the data folder in /workspaces/dh-food-delivery-time/model_pipeline/data.
+- **Model pipeline results**: If you just wish to read the data generated, feel free to read the files directly from the data folder in /workspaces/dh-food-delivery-time/model_pipeline/data.
 - **Run the model pipeline yourself**
 To check the code runs properly, run the code in your terminal, ensuring the terminal points to /workspaces/dh-food-delivery-time/:
   ```bash

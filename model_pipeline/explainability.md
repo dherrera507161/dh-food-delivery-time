@@ -1,6 +1,6 @@
 # Insights from feature importance tools
 
-During this project, the advantage of using several model architectures, is that we can take advantage of severe feature_importance tools such as:
+During this project, the advantage of using several model architectures, is that we can take advantage of several feature_importance tools such as:
 
 1. Linear Coefficients (Linear/Lasso Regression)
 2. Feature Importance (Tree-Based Algorithms)
@@ -22,6 +22,6 @@ Although, Linear Regression finds these features to be relatively relevant, all 
 
 4. Overall, the type of vehicle used in the delivery was also found to be not a determining factor. Across all tests, none of the vehicles was found to have a high feature importance/shap value.
 
-5. Null values in both the time of day and weather condtions were found to increase the delivery time by the high positive shap value. Further research needs to be done on whether this is the result of the low amount of data points (30 rows each), or because of external factors affecting their readings (i.e really late hours or emergency weather conditions)
+5. Null values in both the time of day and weather conditions were found to increase the delivery time by the high positive shap value. Further research needs to be done on whether this is the result of the low amount of data points (30 rows each), or because of external factors affecting their readings (i.e really late hours or emergency weather conditions)
 
 

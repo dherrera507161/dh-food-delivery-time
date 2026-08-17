@@ -2,15 +2,15 @@
 
 # Modeling Logic
 
-In order to have a wide arrange of options, I decided to develop five models for the following reasons:
+In order to have a wide range of options, I decided to develop five models for the following reasons:
 1. Linear Regression: Most simple and easiest to understand model
 2. Lasso Regression: Similar to linear regression, but disregarding features that have no impact on the model.
 3. Random Forest: Standard Tree-Based algorithm that takes advantage of randomness to identify patterns in the data.
 4. XGBoost: Standard Tree-Based algorithm that perform a series of iterations to find out the best model.
-5. CatBoost: Similar to XGBoost, but built specifically inicially to handle categorical data, which this dataset contains.
+5. CatBoost: Similar to XGBoost, but built specifically initially to handle categorical data, which this dataset contains.
 
 In the end, the Lasso Regression model was the architecture with the lowest error metrics (Test RMSE = 10.63). This model architecture was benefitted from having a small number of features and data points to predict. It resulted in better results than the normal Linear Regression because it identified features that didn't contribute significantly, like the Time of Day being Evening/Night.
-Although, it would be the selected choice for now, the CatBoost model (TEST RMSE = 11.12) is not signifcantly worse and, if in the future more features/datapoints are added for training, it could really benefit from the non-linear relationships 
+Although, it would be the selected choice for now, the CatBoost model (TEST RMSE = 11.12) is not significantly worse and, if in the future more features/datapoints are added for training, it could really benefit from the non-linear relationships 
 between data and target that could be identified.
 
 These results can be found on model_pipeline/data/08_reporting/summary_models.csv
@@ -33,7 +33,7 @@ These results can be found on model_pipeline/data/08_reporting/summary_models.cs
 
 Due to timing issues, the hyperparameter tuning was done relatively simply. The process can be found on hyperparameter_notebook.ipynb
 
-For each of the model arquitectures that allow it (all but Linear Regression), 5 Fold Cross Validation was performed in order for the model architecture to find the best hyperparameters. This 5 Fold Cross Validation was done specifically on the training data (80% of the Dataset).
+For each of the model architectures that allow it (all but Linear Regression), 5 Fold Cross Validation was performed in order for the model architecture to find the best hyperparameters. This 5 Fold Cross Validation was done specifically on the training data (80% of the Dataset).
 
 Furthermore, graphs were plotted of training RMSE vs test RMSE to find out the hyperparameter values were causing serious overfitting. An elbow test was performed in order to choose the parameters that would be fixed when training the model. The iterated parameters were the following:
 
